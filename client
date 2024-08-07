@@ -1,0 +1,78 @@
+// 필요한 헤더 파일들을 포함합니다.
+#include <iostream>       // 입출력 스트림을 위한 헤더
+#include <string>         // 문자열 처리를 위한 헤더
+#include <WS2tcpip.h>     // Windows 소켓 프로그래밍을 위한 헤더
+
+// Winsock 라이브러리를 링크합니다. 이는 Windows 소켓 프로그래밍에 필요합니다.
+#pragma comment(lib, "ws2_32.lib")
+
+// 상수 정의
+#define PORT 2121         // 서버의 포트 번호
+#define BUFFER_SIZE 1024  // 메시지 버퍼의 크기
+
+int main() {
+    // Winsock 초기화
+    WSADATA wsData;
+    WORD ver = MAKEWORD(2, 2);  // Winsock 버전 2.2 사용
+    int wsOk = WSAStartup(ver, &wsData);  // Winsock 초기화
+    if (wsOk != 0) {
+        std::cerr << "Can't Initialize winsock! Quitting" << std::endl;
+        return -1;
+    }
+
+    // 소켓 생성
+    SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);  // TCP 소켓 생성
+    if (sock == INVALID_SOCKET) {
+        std::cerr << "Can't create a socket! Quitting" << std::endl;
+        WSACleanup();  // Winsock 정리
+        return -1;
+    }
+
+    // 서버 주소 구조체 설정
+    sockaddr_in hint;
+    hint.sin_family = AF_INET;  // IPv4 주소 체계 사용
+    hint.sin_port = htons(PORT);  // 포트 번호 설정 (호스트 바이트 순서를 네트워크 바이트 순서로 변환)
+    inet_pton(AF_INET, "127.0.0.1", &hint.sin_addr);  // 서버 IP 주소 설정 (여기서는 로컬호스트)
+
+    // 서버에 연결
+    int connResult = connect(sock, (sockaddr*)&hint, sizeof(hint));
+    if (connResult == SOCKET_ERROR) {
+        std::cerr << "Can't connect to server, Err #" << WSAGetLastError() << std::endl;
+        closesocket(sock);  // 소켓 닫기
+        WSACleanup();  // Winsock 정리
+        return -1;
+    }
+
+    std::cout << "Connected to server" << std::endl;
+
+    char buffer[BUFFER_SIZE];  // 서버로부터 받은 메시지를 저장할 버퍼
+    std::string userInput;  // 사용자 입력을 저장할 문자열
+
+    while (true) {
+        // 사용자로부터 메시지 입력 받기
+        std::cout << "Enter message: ";
+        std::getline(std::cin, userInput);
+
+        if (userInput.size() > 0) {  // 입력된 메시지가 있을 경우
+            // 서버로 메시지 전송
+            int sendResult = send(sock, userInput.c_str(), userInput.size() + 1, 0);
+            if (sendResult != SOCKET_ERROR) {
+                // 서버로부터 응답 받기
+                ZeroMemory(buffer, BUFFER_SIZE);  // 버퍼를 0으로 초기화
+                int bytesReceived = recv(sock, buffer, BUFFER_SIZE, 0);
+                if (bytesReceived > 0) {
+                    // 받은 응답 출력
+                    std::cout << "SERVER> " << std::string(buffer, 0, bytesReceived) << std::endl;
+                }
+            }
+        }
+    }
+
+    // 소켓 닫기
+    closesocket(sock);
+
+    // Winsock 정리
+    WSACleanup();
+
+    return 0;
+}

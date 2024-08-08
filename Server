@@ -1,0 +1,76 @@
+// 필요한 헤더 파일들을 포함합니다.
+#include <iostream>       // 입출력 스트림을 위한 헤더
+#include <WS2tcpip.h>     // Windows 소켓 프로그래밍을 위한 헤더
+#include <string>         // 문자열 처리를 위한 헤더
+#include <thread>         // 멀티스레딩을 위한 헤더
+
+// Winsock 라이브러리를 링크합니다. 이는 Windows 소켓 프로그래밍에 필요합니다.
+#pragma comment (lib, "ws2_32.lib")
+
+// 상수 정의
+#define PORT 2121         // 서버가 사용할 포트 번호
+#define BUFFER_SIZE 1024  // 메시지 버퍼의 크기
+
+// 클라이언트 처리 함수
+void handle_client(SOCKET client_socket) {
+    char buffer[BUFFER_SIZE] = { 0 };  // 메시지를 저장할 버퍼
+    while (true) {
+        ZeroMemory(buffer, BUFFER_SIZE);  // 버퍼를 0으로 초기화
+        int bytesReceived = recv(client_socket, buffer, BUFFER_SIZE, 0);  // 클라이언트로부터 메시지 수신
+        if (bytesReceived <= 0) break;  // 연결이 끊어졌거나 오류 발생 시 루프 종료
+        std::cout << "Client: " << buffer << std::endl;  // 받은 메시지 출력
+        send(client_socket, buffer, bytesReceived, 0);  // 클라이언트에게 에코 응답
+    }
+    closesocket(client_socket);  // 클라이언트 소켓 닫기
+}
+
+int main() {
+    // Winsock 초기화
+    WSADATA wsData;
+    WORD ver = MAKEWORD(2, 2);  // Winsock 버전 2.2 사용
+    int wsOk = WSAStartup(ver, &wsData);  // Winsock 초기화
+    if (wsOk != 0) {
+        std::cerr << "Can't Initialize winsock! Quitting" << std::endl;
+        return -1;
+    }
+
+    // 소켓 생성
+    SOCKET listening = socket(AF_INET, SOCK_STREAM, 0);  // TCP 소켓 생성
+    if (listening == INVALID_SOCKET) {
+        std::cerr << "Can't create a socket! Quitting" << std::endl;
+        WSACleanup();  // Winsock 정리
+        return -1;
+    }
+
+    // 서버 주소 구조체 설정
+    sockaddr_in hint;
+    hint.sin_family = AF_INET;  // IPv4 주소 체계 사용
+    hint.sin_port = htons(PORT);  // 포트 번호 설정 (호스트 바이트 순서를 네트워크 바이트 순서로 변환)
+    hint.sin_addr.S_un.S_addr = INADDR_ANY;  // 모든 네트워크 인터페이스에서 연결 수신
+
+    // 소켓을 IP 주소와 포트에 바인드
+    int bindresult = bind(listening, (sockaddr*)&hint, sizeof(hint));
+    if (bindresult == SOCKET_ERROR)
+        std::cerr << "Bind failed with error!" << WSAGetLastError << std::endl;
+
+    // 소켓을 리스닝 상태로 설정
+    listen(listening, SOMAXCONN);  // SOMAXCONN은 최대 연결 대기열 크기
+
+    std::cout << "Server listening on port " << PORT << std::endl; //서버가 동작 시 출력
+
+    while (true) {
+        // 클라이언트 연결 수락
+        SOCKET client = accept(listening, nullptr, nullptr);
+
+        // 새 스레드에서 클라이언트 처리
+        std::thread(handle_client, client).detach();  // 스레드 생성 및 분리
+    }
+
+    // 리스닝 소켓 닫기
+    closesocket(listening);
+
+    // Winsock 정리
+    WSACleanup();
+
+    return 0;
+}

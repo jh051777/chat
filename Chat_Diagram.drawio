@@ -105,28 +105,19 @@
           <mxGeometry x="40" y="80" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iw1IhrgtUYSzo-H0P91l-55" value="서버 소켓" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="985" width="80" height="40" as="geometry" />
+          <mxGeometry x="290" y="985" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iw1IhrgtUYSzo-H0P91l-57" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="640" width="810" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="iw1IhrgtUYSzo-H0P91l-58" value="포트번호" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-58" value="IP 주소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="960" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iw1IhrgtUYSzo-H0P91l-59" value="IP 주소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-59" value="포트번호" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1040" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iw1IhrgtUYSzo-H0P91l-63" value="bind" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="250" y="910" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="iw1IhrgtUYSzo-H0P91l-65" value="고유한 포트번호 결합" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iw1IhrgtUYSzo-H0P91l-58" target="iw1IhrgtUYSzo-H0P91l-55">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="1120" as="sourcePoint" />
-            <mxPoint x="400" y="1070" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270" y="990" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="iw1IhrgtUYSzo-H0P91l-67" value="&lt;div&gt;PORT 9090&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="710" width="110" height="40" as="geometry" />
@@ -178,6 +169,27 @@
         </mxCell>
         <mxCell id="iw1IhrgtUYSzo-H0P91l-96" value="특정 포트에서 소켓을 여러 개 열어 서로 다른 사람들과의 데이터 송수신 가능" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="770" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-98" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iw1IhrgtUYSzo-H0P91l-59" target="iw1IhrgtUYSzo-H0P91l-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1080" as="sourcePoint" />
+            <mxPoint x="400" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-99" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iw1IhrgtUYSzo-H0P91l-58" target="iw1IhrgtUYSzo-H0P91l-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1080" as="sourcePoint" />
+            <mxPoint x="400" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-100" value="IP 주소&lt;div&gt;+&lt;/div&gt;&lt;div&gt;포트번호&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="995" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-101" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;SOCKET s&lt;/font&gt;&lt;/b&gt; : 바인드할 소켓 지정&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;const sockaddr* addr&lt;/font&gt;&lt;/b&gt; : IP 주소와 포트 정보를 담고있는 구조체 포인터&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;int addrlen&lt;/font&gt;&lt;/b&gt; : 주소 구조체의 크기&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1010" width="396" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iw1IhrgtUYSzo-H0P91l-103" value="bind(&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;SOCKET s&lt;/font&gt;&lt;/b&gt;, &lt;font color=&quot;#009900&quot;&gt;&lt;b style=&quot;&quot;&gt;const sockaddr*&lt;/b&gt; &lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;addr&lt;/font&gt;, &lt;font color=&quot;#007fff&quot;&gt;int addrlen&lt;/font&gt;&lt;/b&gt;);" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="955" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

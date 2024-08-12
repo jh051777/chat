@@ -1,0 +1,120 @@
+using System;
+using System.Data;
+using System.Windows.Forms;
+using Npgsql;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        // 데이터베이스 연결 문자열
+        private const string DefaultConnectionString = "Server={0}; Port={1}; User Id=postgres; Password=5130; Database=NeighborChat;";
+
+        // NpgsqlConnection 객체
+        private NpgsqlConnection nConnect;
+
+        private string loggedInUserId;
+
+        // 폼 생성자
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // 입력한 IP주소와 Port번호로 데이터베이스에 연결
+        private void ConnectToDatabase(string svIP, string svPort)
+        {
+            var connectionString = string.Format(DefaultConnectionString, svIP, svPort);
+            nConnect = new NpgsqlConnection(connectionString);
+
+            try
+            {
+                if (nConnect.State == ConnectionState.Closed)
+                {
+                    nConnect.Open();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"데이터베이스 연결 오류: {ex.Message}", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        // 회원가입 폼
+        private Signup signup;
+        // 채팅 폼
+        private Chat chat;
+
+        // 회원가입 버튼 클릭 이벤트 핸들러
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            if (signup == null || signup.IsDisposed)
+            {
+                signup = new Signup();
+                signup.Show();
+            }
+            else
+            {
+                signup.Activate();
+            }
+        }
+
+        // 로그인 버튼 클릭 이벤트 핸들러
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            // 서버 IP, 포트, ID, 비밀번호 가져오기
+            string svIP = ServerIP.Text;
+            string svPort = ServerPort.Text;
+            string id = ID.Text;
+            string pw = PW.Text;
+
+            ConnectToDatabase(svIP, svPort);
+
+            try
+            {
+                if (AuthenticateUser(id, pw))
+                {
+                    MessageBox.Show("로그인 성공!", "성공", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    loggedInUserId = id;
+                    var chat = new Chat(loggedInUserId);
+                    chat.Show();
+                }
+                else
+                {
+                    MessageBox.Show("아이디 또는 비밀번호가 잘못되었습니다.", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            finally
+            {
+                if (nConnect != null && nConnect.State == ConnectionState.Open)
+                {
+                    nConnect.Close();
+                }
+            }
+        }
+
+        // 사용자 인증 메서드
+        private bool AuthenticateUser(string id, string pw)
+        {
+            const string query = "SELECT COUNT(*) FROM signup WHERE id = @id AND pw = @pw";
+
+            try
+            {
+                using (var nCommand = new NpgsqlCommand(query, nConnect))
+                {
+                    nCommand.Parameters.AddWithValue("@id", id);
+                    nCommand.Parameters.AddWithValue("@pw", pw);
+
+                    long count = (long)nCommand.ExecuteScalar();
+                    return count > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"인증 오류: {ex.Message}", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
+    }
+
+}

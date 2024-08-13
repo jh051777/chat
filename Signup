@@ -9,102 +9,89 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
-namespace WindowsFormsApp1
+namespace WinForm_Test
 {
     public partial class Signup : Form
     {
         // 데이터베이스 연결 문자열
         private const string StrConnection = "Server=localhost;Port=5432;User Id=postgres;Password=5130;Database=NeighborChat;";
-
-        // NpgsqlConnection 객체
+        // NpgsqlConnection 객체 생성
         private NpgsqlConnection nConnect;
-
-        // 폼을 초기화하는 생성자
         public Signup()
         {
             InitializeComponent();
         }
 
-        // 데이터베이스에 연결하는 메서드
+        // 데이터베이스 연결 메서드
         private void ConnectToDatabase()
         {
-            if (nConnect != null && nConnect.State == ConnectionState.Open)
-            {
-                return; // 이미 연결되어 있으면 조기 반환
-            }
-
             nConnect = new NpgsqlConnection(StrConnection);
 
             try
             {
-                nConnect.Open();
+                if (nConnect.State == ConnectionState.Closed)
+                {
+                    nConnect.Open();
+                }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                MessageBox.Show($"데이터베이스 연결 오류: {ex.Message}", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"데이터베이스 연결 오류: {ex.Message}");
             }
         }
 
-        // '완료' 버튼 클릭 시 호출되는 이벤트 핸들러
-        private void btnDone_Click(object sender, EventArgs e)
+        // 회원가입 완료 버튼 클릭 이벤트
+        private void btnDone_Click( object sender, EventArgs e )
         {
-            // 사용자 입력 가져오기
-            string id = tbID.Text.Trim();
-            string pw = tbPW.Text.Trim();
-            string dpt = tbDpt.Text.Trim();
-            string pn = tbPN.Text.Trim();
+            // 회원가입 시 입력하는 id, password, department, phone_number를 데이터베이스에 삽입하는 쿼리 정의
+            const string query = "INSERT INTO signup (id, pw, department, phone_number) VALUES (@id, @pw, @dpt, @pn)";
+            string id = tbID.Text;
+            string pw = tbPW.Text;
+            string department = tbDpt.Text;
+            string phone_number = tbPN.Text;
 
-            // ID와 비밀번호가 비어 있는지 확인
-            if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(pw))
+            // id와 pw를 입력하는 textbox가 공백이면 경고문과 함께 메서드 종료
+            if(string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(pw))
             {
-                MessageBox.Show("아이디와 비밀번호를 입력해 주세요.", "입력 오류", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; // 입력이 부족하면 메서드를 종료
+                MessageBox.Show("아이디와 비밀번호를 입력해 주세요.");
+                return;
             }
-
             try
             {
-                // 데이터베이스에 연결
+                // 데이터베이스 연결
                 ConnectToDatabase();
 
-                // 입력된 데이터를 데이터베이스에 삽입
-                InsertData("INSERT INTO signup (id, pw, department, phonenumber) VALUES (@id, @pw, @dpt, @pn);", id, pw, dpt, pn);
-                MessageBox.Show("회원가입이 완료되었습니다.", "완료", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"회원가입 오류: {ex.Message}", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                // 데이터베이스 연결을 닫음
-                nConnect?.Close();
-            }
-
-            // 폼을 닫음
-            this.Close();
-        }
-
-        // 데이터베이스에 데이터를 삽입하는 메서드
-        private void InsertData(string sql, string id, string pw, string dpt, string pn)
-        {
-            try
-            {
-                using (var nCommand = new NpgsqlCommand(sql, nConnect))
+                using (var nCommand = new NpgsqlCommand(query, nConnect))
                 {
+                    // 쿼리에서 @id 파라미터에 id값 설정
                     nCommand.Parameters.AddWithValue("@id", id);
+                    // 쿼리에서 @pw 파라미터에 pw값 설정
                     nCommand.Parameters.AddWithValue("@pw", pw);
-                    nCommand.Parameters.AddWithValue("@dpt", dpt);
-                    nCommand.Parameters.AddWithValue("@pn", pn);
+                    // 쿼리에서 @dpt 파라미터에 department값 설정
+                    nCommand.Parameters.AddWithValue("@dpt", department);
+                    // 쿼리에서 @pn 파라미터에 phone_number값 설정
+                    nCommand.Parameters.AddWithValue("@pn", phone_number);
 
+                    // INSERT, UPDATE, DELETE 문을 사용할 경우 Dataset없이 데이터베이시의 데이터를 변경
                     nCommand.ExecuteNonQuery();
+
+                    MessageBox.Show("회원가입이 완료되었습니다.");
+                    // 회원가입 폼 닫기
+                    this.Close();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"데이터 삽입 오류: {ex.Message}", "오류", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // 예외처리
+                MessageBox.Show($"회원가입 오류: {ex.Message}");
+            }
+            finally
+            {
+                if (nConnect != null && nConnect.State == ConnectionState.Open)
+                {
+                    nConnect.Close();
+                }
             }
         }
     }
-
-
 }

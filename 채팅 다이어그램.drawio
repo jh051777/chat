@@ -8,7 +8,7 @@
           <mxGeometry x="354" y="80" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-11" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;position2=0.08;size=210;position=0;fillColor=#ffe6cc;base=70;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="50" y="170" width="750" height="465" as="geometry" />
+          <mxGeometry x="220" y="170" width="580" height="465" as="geometry" />
         </mxCell>
         <mxCell id="KtC7ysKLOuglknF3prI5-2" value="사용자" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="20" y="75" width="120" height="150" as="geometry" />
@@ -61,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-4" value="사용자 정보" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="80" y="400" width="140" height="150" as="geometry" />
+          <mxGeometry x="260" y="400" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-5" value="아이디" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="M07Gjk41BYVv6PrY2_Yd-4" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -76,7 +76,7 @@
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-12" value="메세지 정보" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="260" y="400" width="140" height="180" as="geometry" />
+          <mxGeometry x="440" y="400" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-13" value="발신 아이디" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="M07Gjk41BYVv6PrY2_Yd-12" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -94,7 +94,7 @@
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-17" value="채팅방" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="440" y="400" width="140" height="120" as="geometry" />
+          <mxGeometry x="620" y="400" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="M07Gjk41BYVv6PrY2_Yd-19" value="발신 아이디" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="M07Gjk41BYVv6PrY2_Yd-17" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />

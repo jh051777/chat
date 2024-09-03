@@ -63,7 +63,7 @@
           <mxGeometry x="490" y="270" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-28" value="소켓을 특정 IP주소와 포트번호에 바인드" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="562.5" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-30" value="연결 허용" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="487.5" y="525" width="75" height="60" as="geometry" />

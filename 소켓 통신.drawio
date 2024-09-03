@@ -45,11 +45,19 @@
         <mxCell id="r1B8WvBZDqDysIyFDCDK-15" value="클라이언트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="930" y="230" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="470.1578947368421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-19" value="소켓 생성" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="935" y="440" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-23" value="소켓 통신 서버로 이용할 컴퓨터의 IP 및 포트 번호설정 및 고정" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="320" y="100" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-25" value="서버에 연결 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="440" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

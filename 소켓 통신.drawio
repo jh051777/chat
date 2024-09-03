@@ -6,70 +6,79 @@
         <mxCell id="1" parent="0" />
         <mxCell id="r1B8WvBZDqDysIyFDCDK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="340" as="targetPoint" />
+            <mxPoint x="890" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-2" target="r1B8WvBZDqDysIyFDCDK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-2" value="서버" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="200" y="310" width="80" height="60" as="geometry" />
+          <mxGeometry x="610" y="350" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-6" target="r1B8WvBZDqDysIyFDCDK-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="458" as="targetPoint" />
+            <mxPoint x="925" y="498" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-6" value="소켓 생성" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="310" width="70" height="60" as="geometry" />
+          <mxGeometry x="890" y="350" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-8" value="&lt;div&gt;- IPv4 프로토콜 사용&lt;/div&gt;- TCP 연결 사용&lt;div&gt;- TCP 프로토콜 사용&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="550" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="514" y="670" as="targetPoint" />
+            <mxPoint x="924" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-11" value="리스닝" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="477.5" y="530" width="75" height="60" as="geometry" />
+          <mxGeometry x="887.5" y="570" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-12" value="클라이언트가 연결 요청할 때 까지 대기 상태" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="552.5" y="530" width="129" height="60" as="geometry" />
+          <mxGeometry x="962.5" y="570" width="129" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-15" target="r1B8WvBZDqDysIyFDCDK-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="540" as="targetPoint" />
+            <mxPoint x="1370" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-15" value="클라이언트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="920" y="380" width="80" height="60" as="geometry" />
+          <mxGeometry x="1330" y="420" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="620.1578947368421" as="targetPoint" />
+            <mxPoint x="930" y="660.1578947368421" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-19" value="소켓 생성" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="925" y="590" width="70" height="60" as="geometry" />
+          <mxGeometry x="1335" y="630" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-23" value="소켓 통신 서버로 이용할 컴퓨터의 IP주소 및 포트 번호설정 및 고정" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="310" y="250" width="140" height="90" as="geometry" />
+          <mxGeometry x="720" y="290" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-26" target="r1B8WvBZDqDysIyFDCDK-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-26" value="&amp;nbsp;바인드" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="70" height="60" as="geometry" />
+          <mxGeometry x="890" y="460" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-28" value="소켓을 특정 IP주소와 포트번호에 바인드" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="550" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-30" value="연결 허용" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="477.5" y="675" width="75" height="60" as="geometry" />
+          <mxGeometry x="887.5" y="715" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-31" value="로그인 폼에서 로그인 동작 시 서버로 연결" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="681.5" y="630" width="120" height="41" as="geometry" />
+          <mxGeometry x="1091.5" y="670" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-32" value="최대 10개의 서로 다른 클라이언트가 서버에 접속 할 수 있게 소켓 생성을 10개로 제한합니다." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="490" y="250" width="270" height="30" as="geometry" />
+          <mxGeometry x="900" y="290" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-34" target="r1B8WvBZDqDysIyFDCDK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-34" value="데이터베이스" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

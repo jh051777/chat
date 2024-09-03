@@ -9,9 +9,6 @@
             <mxPoint x="890" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r1B8WvBZDqDysIyFDCDK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-2" target="r1B8WvBZDqDysIyFDCDK-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-2" value="서버" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="350" width="80" height="60" as="geometry" />
         </mxCell>
@@ -65,20 +62,26 @@
         <mxCell id="r1B8WvBZDqDysIyFDCDK-28" value="소켓을 특정 IP주소와 포트번호에 바인드" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="960" y="460" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-30" target="r1B8WvBZDqDysIyFDCDK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-30" value="연결 허용" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="887.5" y="715" width="75" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="r1B8WvBZDqDysIyFDCDK-31" value="로그인 폼에서 로그인 동작 시 서버로 연결" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1091.5" y="670" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-32" value="최대 10개의 서로 다른 클라이언트가 서버에 접속 할 수 있게 소켓 생성을 10개로 제한합니다." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="900" y="290" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r1B8WvBZDqDysIyFDCDK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-34" target="r1B8WvBZDqDysIyFDCDK-2">
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-34" target="r1B8WvBZDqDysIyFDCDK-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-34" value="데이터베이스" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="320" y="350" width="80" height="60" as="geometry" />
+          <mxGeometry x="420" y="585" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-41" value="로그인 동작 및 회원가입 시 서버로 연결" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="660" width="221.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-43" value="클라이언트가 로그인 시도하는 ID와 Password를 데이터베이스에서 비교 후 로그인 여부 확인" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="517" y="690" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

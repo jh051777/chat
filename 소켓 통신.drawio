@@ -53,9 +53,6 @@
         <mxCell id="r1B8WvBZDqDysIyFDCDK-23" value="소켓 통신 서버로 이용할 컴퓨터의 IP주소 및 포트 번호설정 및 고정" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="310" y="250" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="r1B8WvBZDqDysIyFDCDK-25" value="서버에 연결 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="590" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-26" target="r1B8WvBZDqDysIyFDCDK-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

@@ -20,7 +20,7 @@
         <mxCell id="r1B8WvBZDqDysIyFDCDK-6" value="소켓 생성" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="160" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r1B8WvBZDqDysIyFDCDK-8" value="&lt;div&gt;IPv4 프로토콜 사용&lt;/div&gt;TCP 연결 사용&lt;div&gt;TCP 프로토콜 사용&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-8" value="&lt;div&gt;- IPv4 프로토콜 사용&lt;/div&gt;- TCP 연결 사용&lt;div&gt;- TCP 프로토콜 사용&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-10" value="IP주소 + 포트번호 바인드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

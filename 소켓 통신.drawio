@@ -10,7 +10,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-2" value="서버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="80" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-4" value="소켓 통신 서버로 이용할 컴퓨터의 IP 및 포트 설정" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="80" width="140" height="30" as="geometry" />

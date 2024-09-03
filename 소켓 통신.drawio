@@ -81,7 +81,7 @@
           <mxGeometry x="1040" y="660" width="221.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-43" value="클라이언트가 로그인 시도하는 ID와 Password를 데이터베이스에서 비교 후 로그인 여부 확인" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="517" y="690" width="310" height="40" as="geometry" />
+          <mxGeometry x="550" y="690" width="263" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

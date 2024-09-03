@@ -15,11 +15,25 @@
         <mxCell id="r1B8WvBZDqDysIyFDCDK-4" value="소켓 통신 서버로 이용할 컴퓨터의 IP 및 포트 설정" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="80" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1B8WvBZDqDysIyFDCDK-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-6" value="소켓 생성" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r1B8WvBZDqDysIyFDCDK-8" value="&lt;div&gt;IPv4 프로토콜 사용&lt;/div&gt;TCP 연결 사용&lt;div&gt;TCP 프로토콜 사용&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="450" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-10" value="IP주소 + 포트번호 바인드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-11" value="리스닝" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="250" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1B8WvBZDqDysIyFDCDK-12" value="클라이언트가 연결 요청할 때 까지 대기 상태" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="451" y="250" width="129" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

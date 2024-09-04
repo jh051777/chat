@@ -137,6 +137,33 @@
         <mxCell id="tfnDB9iMd_6-sK6yiwxz-18" value="연결 종료" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="990" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1240" width="350" height="514" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-20" value="안녕하세요 이재훈 입니다!" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-22" value="곽현민 인턴" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1047.5" y="1250" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.999;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.001;exitY=0.081;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tfnDB9iMd_6-sK6yiwxz-19" target="tfnDB9iMd_6-sK6yiwxz-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1570" as="sourcePoint" />
+            <mxPoint x="940" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-24" value="네! 반갑습니다!" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1660" width="280" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tfnDB9iMd_6-sK6yiwxz-26" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tfnDB9iMd_6-sK6yiwxz-19" target="tfnDB9iMd_6-sK6yiwxz-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1570" as="sourcePoint" />
+            <mxPoint x="940" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

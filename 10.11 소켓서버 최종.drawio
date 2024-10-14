@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="페이지-1" id="IDwFKou4PNl_vuV0hLZj">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-1" value="handle packet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="190" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiSU3P8jF0pBf-Lb1lwN-2" target="EiSU3P8jF0pBf-Lb1lwN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-2" value="로그인 시도" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiSU3P8jF0pBf-Lb1lwN-3" target="EiSU3P8jF0pBf-Lb1lwN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-3" value="채팅방 생성 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiSU3P8jF0pBf-Lb1lwN-5" target="EiSU3P8jF0pBf-Lb1lwN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSU3P8jF0pBf-Lb1lwN-5" value="메시지 전송" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

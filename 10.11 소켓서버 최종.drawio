@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="페이지-1" id="IDwFKou4PNl_vuV0hLZj">
-    <mxGraphModel dx="4168" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5349" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -856,7 +856,7 @@
             <mxRectangle width="143" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z-4W0DH7sU5GfLqD45_4-150" value="1012" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FF0808;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-148">
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-150" value="102" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FF0808;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-148">
           <mxGeometry x="143" width="131" height="29" as="geometry">
             <mxRectangle width="131" height="29" as="alternateBounds" />
           </mxGeometry>
@@ -889,7 +889,7 @@
           <mxGeometry x="686" y="916" width="296" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-87" value="채팅방" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillStyle=solid;strokeColor=#82b366;strokeWidth=1;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=1;labelBorderColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="-1654" y="2030" width="1524" height="870" as="geometry" />
+          <mxGeometry x="-1655" y="2002" width="1524" height="870" as="geometry" />
         </mxCell>
         <mxCell id="WZHjmBgSrTlcV4M0uwsq-115" value="" style="group;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1" connectable="0">
           <mxGeometry x="99" y="636" width="1230" height="177" as="geometry" />
@@ -1263,13 +1263,13 @@
         <mxCell id="WZHjmBgSrTlcV4M0uwsq-227" value="헤더 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
           <mxGeometry x="409.25" y="382" width="106.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WZHjmBgSrTlcV4M0uwsq-228" value="&lt;b&gt;5) 채팅방 생성 실패 응답 예 (서버)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
+        <mxCell id="WZHjmBgSrTlcV4M0uwsq-228" value="&lt;b&gt;6) 채팅방 생성 실패 응답 예 (서버)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
           <mxGeometry x="54" y="362" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WZHjmBgSrTlcV4M0uwsq-145" value="6) 기존에 존재하는 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
+        <mxCell id="WZHjmBgSrTlcV4M0uwsq-145" value="7) 기존에 존재하는 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
           <mxGeometry x="54" y="616" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WZHjmBgSrTlcV4M0uwsq-169" value="4) 새로운 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
+        <mxCell id="WZHjmBgSrTlcV4M0uwsq-169" value="5) 새로운 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
           <mxGeometry x="54" y="80" width="266" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-92" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-87">
@@ -1287,11 +1287,11 @@
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" edge="1" parent="Z-4W0DH7sU5GfLqD45_4-87" source="Z-4W0DH7sU5GfLqD45_4-97" target="WZHjmBgSrTlcV4M0uwsq-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z-4W0DH7sU5GfLqD45_4-97" value="메시지 텍스트&lt;div&gt;메시지를 보낸 ID&lt;/div&gt;&lt;div&gt;메시지 보낸 시간&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-87">
-          <mxGeometry x="1284" y="548" width="236" height="68" as="geometry" />
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-97" value="메시지 텍스트&lt;div&gt;메시지를 보낸 ID&lt;/div&gt;&lt;div&gt;메시지 보낸 시간&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-87">
+          <mxGeometry x="1354" y="548" width="136" height="68" as="geometry" />
         </mxCell>
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-88" value="메시지" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillStyle=solid;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=1;labelBorderColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="-1654" y="2948" width="1524" height="632" as="geometry" />
+          <mxGeometry x="-1654" y="2948" width="1524" height="762" as="geometry" />
         </mxCell>
         <mxCell id="WZHjmBgSrTlcV4M0uwsq-233" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;swimlaneFillColor=none;strokeWidth=1;fillStyle=solid;rounded=0;perimeterSpacing=0;fontStyle=1;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
           <mxGeometry x="100" y="120" width="1384" height="167" as="geometry" />
@@ -1420,11 +1420,11 @@
         <mxCell id="WZHjmBgSrTlcV4M0uwsq-261" value="바디 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
           <mxGeometry x="1031.75" y="70" width="106.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WZHjmBgSrTlcV4M0uwsq-262" value="7) 메시지 전송 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
+        <mxCell id="WZHjmBgSrTlcV4M0uwsq-262" value="8) 메시지 전송 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
           <mxGeometry x="55" y="50" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-66" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;swimlaneFillColor=none;strokeWidth=1;fillStyle=solid;rounded=0;perimeterSpacing=0;fontStyle=1;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="100" y="436" width="1384" height="150" as="geometry" />
+          <mxGeometry x="100" y="582" width="1384" height="150" as="geometry" />
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;fontStyle=1;labelBorderColor=none;" parent="UO2XIPnez0hY8xpUjKyd-66" vertex="1">
           <mxGeometry width="1384" height="35" as="geometry" />
@@ -1539,19 +1539,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-91" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="250" y="406" width="425" height="20" as="geometry" />
+          <mxGeometry x="250" y="552" width="425" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-92" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="690" y="406" width="790" height="20" as="geometry" />
+          <mxGeometry x="690" y="552" width="790" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-93" value="헤더 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="410.25" y="386" width="106.5" height="30" as="geometry" />
+          <mxGeometry x="410.25" y="532" width="106.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UO2XIPnez0hY8xpUjKyd-94" value="바디 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="1031.75" y="386" width="106.5" height="30" as="geometry" />
+          <mxGeometry x="1031.75" y="532" width="106.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UO2XIPnez0hY8xpUjKyd-95" value="8) 메시지 전송 실패 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
-          <mxGeometry x="55" y="366" width="340" height="30" as="geometry" />
+        <mxCell id="UO2XIPnez0hY8xpUjKyd-95" value="9) 메시지 전송 실패 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;fontStyle=1" parent="Z-4W0DH7sU5GfLqD45_4-88" vertex="1">
+          <mxGeometry x="55" y="512" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-159" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" edge="1" parent="Z-4W0DH7sU5GfLqD45_4-88" source="Z-4W0DH7sU5GfLqD45_4-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="923.6470588235293" y="278.52941176470586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-158" value="메시지를 수신받는 사용자에게 동일하게 전달" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-88">
+          <mxGeometry x="564" y="352" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" edge="1" parent="Z-4W0DH7sU5GfLqD45_4-88" source="Z-4W0DH7sU5GfLqD45_4-160">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1393.6470588235297" y="279.70588235294144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-160" value="메시지 텍스트&lt;div&gt;메시지를 보낸 ID&lt;/div&gt;&lt;div&gt;메시지를 보낸 시간&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-88">
+          <mxGeometry x="1280" y="347" width="140" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

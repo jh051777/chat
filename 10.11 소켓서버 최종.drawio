@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="페이지-1" id="IDwFKou4PNl_vuV0hLZj">
-    <mxGraphModel dx="6066" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3676" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1139,8 +1139,8 @@
         <mxCell id="WZHjmBgSrTlcV4M0uwsq-145" value="6) 기존에 존재하는 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
           <mxGeometry x="54" y="616" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WZHjmBgSrTlcV4M0uwsq-169" value="4) 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
-          <mxGeometry x="54" y="80" width="220" height="30" as="geometry" />
+        <mxCell id="WZHjmBgSrTlcV4M0uwsq-169" value="4) 새로운 채팅방 생성 성공 응답 예 (서버)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" parent="Z-4W0DH7sU5GfLqD45_4-87" vertex="1">
+          <mxGeometry x="54" y="80" width="266" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-92" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-87">
           <mxGeometry x="687" y="120" width="296" height="20" as="geometry" />

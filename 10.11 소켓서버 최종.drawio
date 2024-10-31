@@ -752,6 +752,12 @@
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-90" value="바디 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-85">
           <mxGeometry x="774" y="358" width="106.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-95" value="바디 패킷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=3;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-85">
+          <mxGeometry x="774" y="630" width="106.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-96" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-85">
+          <mxGeometry x="686" y="650" width="296" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="Z-4W0DH7sU5GfLqD45_4-87" value="채팅방" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillStyle=solid;strokeColor=#82b366;strokeWidth=1;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=1;labelBorderColor=none;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-1654" y="1660" width="1524" height="870" as="geometry" />
         </mxCell>

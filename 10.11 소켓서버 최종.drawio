@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="페이지-1" id="IDwFKou4PNl_vuV0hLZj">
-    <mxGraphModel dx="5751" dy="2057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4044" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1583,7 +1583,7 @@
             <mxRectangle width="140" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z-4W0DH7sU5GfLqD45_4-168" value="명령어 목록을 출력합니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-166">
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-168" value="명령어 목록을 출력합니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=0;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-166">
           <mxGeometry x="140" width="580" height="41" as="geometry">
             <mxRectangle width="580" height="41" as="alternateBounds" />
           </mxGeometry>
@@ -1596,7 +1596,7 @@
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z-4W0DH7sU5GfLqD45_4-172" value="연결된 클라이언트의 소켓 번호와 아이디를 조회합니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-170">
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-172" value="연결된 클라이언트의 소켓 번호와 아이디를 조회합니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=0;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-170">
           <mxGeometry x="140" width="580" height="40" as="geometry">
             <mxRectangle width="580" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1609,7 +1609,7 @@
             <mxRectangle width="140" height="41" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z-4W0DH7sU5GfLqD45_4-176" value="연결된 클라이언트의 소켓 번호를 입력하여 강제로 연결을 종료시킵니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-174">
+        <mxCell id="Z-4W0DH7sU5GfLqD45_4-176" value="연결된 클라이언트의 소켓 번호를 입력하여 강제로 연결을 종료시킵니다." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=0;labelBorderColor=none;" vertex="1" parent="Z-4W0DH7sU5GfLqD45_4-174">
           <mxGeometry x="140" width="580" height="41" as="geometry">
             <mxRectangle width="580" height="41" as="alternateBounds" />
           </mxGeometry>

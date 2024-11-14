@@ -659,7 +659,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-58" value="서버" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="50" width="800" height="750" as="geometry" />
+          <mxGeometry x="1070" y="50" width="800" height="590" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-56" value="RECEIVE&lt;div&gt;SEND&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
           <mxGeometry x="-60" y="125" width="120" height="80" as="geometry" />
@@ -776,6 +776,15 @@
               <mxPoint x="39" y="70" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-85" value="응답 및 데이터 전송" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
+          <mxGeometry x="290" y="45" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-86" value="ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
+          <mxGeometry x="450" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-87" value="채팅 할 대상 ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
+          <mxGeometry x="436" y="377" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

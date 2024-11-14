@@ -658,7 +658,7 @@
             <mxRectangle width="180" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-58" value="서버" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-58" value="서버" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1120" y="90" width="800" height="590" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-56" value="RECEIVE&lt;div&gt;SEND&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">

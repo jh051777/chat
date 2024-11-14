@@ -615,7 +615,7 @@
             <mxRectangle width="80" height="38" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-21" value="메시지를 받아 채팅 대상에게 메시지 발신" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;verticalAlign=middle;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-18">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-21" value="메시지를 받아 채팅 대상에게 메시지 발신&lt;div&gt;(메시지 보내는 사용자에게도 똑같이 발신)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;verticalAlign=middle;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-18">
           <mxGeometry x="200" width="270" height="38" as="geometry">
             <mxRectangle width="270" height="38" as="alternateBounds" />
           </mxGeometry>

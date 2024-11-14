@@ -701,21 +701,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-71" value="로그인" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
-          <mxGeometry x="480" y="125" width="120" height="80" as="geometry" />
+          <mxGeometry x="584" y="125" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-72" target="GL1bPDBsGA0zluXWCd74-69">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="360" />
+              <mxPoint x="370" y="165" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-72" value="채팅방" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
-          <mxGeometry x="480" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="584" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-73" target="GL1bPDBsGA0zluXWCd74-69">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="550" />
+              <mxPoint x="370" y="165" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-73" value="메시지" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
-          <mxGeometry x="480" y="510" width="120" height="80" as="geometry" />
+          <mxGeometry x="584" y="510" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

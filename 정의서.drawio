@@ -658,6 +658,9 @@
             <mxRectangle width="180" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-56" value="네비게이터" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

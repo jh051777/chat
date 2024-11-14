@@ -731,6 +731,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.827;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-73" target="GL1bPDBsGA0zluXWCd74-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="520" />
+              <mxPoint x="760" y="70" />
+              <mxPoint x="39" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-73" value="메시지" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-58">
           <mxGeometry x="584" y="480" width="120" height="80" as="geometry" />
         </mxCell>
@@ -743,8 +753,8 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.821;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-71" target="GL1bPDBsGA0zluXWCd74-56">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="724" y="165" />
-              <mxPoint x="724" y="70" />
+              <mxPoint x="760" y="165" />
+              <mxPoint x="760" y="70" />
               <mxPoint x="39" y="70" />
             </Array>
           </mxGeometry>
@@ -752,8 +762,17 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.821;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-78" target="GL1bPDBsGA0zluXWCd74-56">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="724" y="280" />
-              <mxPoint x="724" y="70" />
+              <mxPoint x="760" y="280" />
+              <mxPoint x="760" y="70" />
+              <mxPoint x="39" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.821;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GL1bPDBsGA0zluXWCd74-58" source="GL1bPDBsGA0zluXWCd74-72" target="GL1bPDBsGA0zluXWCd74-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="400" />
+              <mxPoint x="760" y="70" />
               <mxPoint x="39" y="70" />
             </Array>
           </mxGeometry>

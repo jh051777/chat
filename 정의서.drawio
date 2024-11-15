@@ -920,12 +920,12 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-138" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
           <mxGeometry y="175" width="750" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-139" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-138">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-139" value="json형식의 데이터 전송" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-138">
           <mxGeometry width="120" height="26" as="geometry">
             <mxRectangle width="120" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-140" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-138">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-140" value="사용자 목록, 채팅 내역, 메시지 텍스트 등의 데이터를 보낼 때 json형식의 데이터로 변환하여 전송" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-138">
           <mxGeometry x="120" width="450" height="26" as="geometry">
             <mxRectangle width="450" height="26" as="alternateBounds" />
           </mxGeometry>

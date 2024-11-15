@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="페이지-1" id="IDwFKou4PNl_vuV0hLZj">
-    <mxGraphModel dx="3679" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3307" dy="1262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,7 +470,7 @@
             <mxRectangle width="150" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uimSWgzzmO1wMBFWw4TM-82" value="&lt;font face=&quot;맑은 고딕&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;{&quot;userList&quot;:[{&quot;user_id&quot;:&quot;rhkrgusals&quot;,&quot;user_name&quot;:&quot;곽현민&quot;,&quot;user_nickname&quot;:&quot;현민&quot;},{&quot;user_id&quot;:&quot;thsalstn&quot;,&quot;user_name&quot;:&quot;손민수&quot;,&quot;user_nickname&quot;:&quot;민수&quot;},{&quot;user_id&quot;:&quot;dhgksmf&quot;,&quot;user_name&quot;:&quot;오하늘&quot;,&quot;user_nickname&quot;:&quot;하늘&quot;},{&quot;user_id&quot;:&quot;jh051777&quot;,&quot;user_name&quot;:&quot;이재훈&quot;,&quot;user_nickname&quot;:&quot;훈디&quot;}]}&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FF0808;fontStyle=1;labelBorderColor=none;" parent="uimSWgzzmO1wMBFWw4TM-77" vertex="1">
+        <mxCell id="uimSWgzzmO1wMBFWw4TM-82" value="&lt;font face=&quot;맑은 고딕&quot;&gt;&lt;span style=&quot;font-size: 14.6667px; white-space-collapse: preserve;&quot;&gt;{&quot;userList&quot;:[{&quot;user_id&quot;:&quot;rhkrgusals&quot;,&quot;user_name&quot;:&quot;곽현민&quot;,&quot;user_nickname&quot;:&quot;현민&quot;},{&quot;user_id&quot;:&quot;thsalstn&quot;,&quot;user_name&quot;:&quot;손민수&quot;,&quot;user_nickname&quot;:&quot;민수&quot;},{&quot;user_id&quot;:&quot;dhgksmf&quot;,&quot;user_name&quot;:&quot;오하늘&quot;,&quot;user_nickname&quot;:&quot;하늘&quot;},{&quot;user_id&quot;:&quot;jh051777&quot;,&quot;user_name&quot;:&quot;이재훈&quot;,&quot;user_nickname&quot;:&quot;재훈&quot;}]}&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=default;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#FF0808;fontStyle=1;labelBorderColor=none;" parent="uimSWgzzmO1wMBFWw4TM-77" vertex="1">
           <mxGeometry x="584" width="605" height="90" as="geometry">
             <mxRectangle width="605" height="90" as="alternateBounds" />
           </mxGeometry>

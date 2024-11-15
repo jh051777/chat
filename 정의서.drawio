@@ -97,7 +97,7 @@
             <mxRectangle width="400" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0k6C3laeqcdQqS4-GQry-22" value="a. 채팅방 생성시 전송하는 채팅 내역 JSON 정의" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="0k6C3laeqcdQqS4-GQry-22" value="1. 채팅방 생성시 전송하는 채팅 내역 JSON 정의" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="1209" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0k6C3laeqcdQqS4-GQry-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;3. 정보&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
@@ -106,17 +106,17 @@
         <mxCell id="0k6C3laeqcdQqS4-GQry-24" value=": JSON 규격" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="60" y="1179" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0k6C3laeqcdQqS4-GQry-25" value="b. 채팅 내역 전송 예시" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="0k6C3laeqcdQqS4-GQry-25" value="2. 채팅 내역 전송 예시" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="1389" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0k6C3laeqcdQqS4-GQry-30" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:[&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:&quot;재훈 -&amp;gt; 민수&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;jh051777&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-08 14:58:18.589&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:&quot;민수 -&amp;gt; 재훈&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;thsalstn&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-08 14:58:26.572&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:&quot;민수님 안녕하세요 반갑습니다&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;jh051777&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-16 10:56:45.642&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;]&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;" parent="1" vertex="1">
           <mxGeometry x="80" y="1429" width="390" height="340" as="geometry" />
         </mxCell>
         <mxCell id="9SRofgldqzQvd813DJrO-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;4. 서버 명령어&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;fontStyle=1;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2120" width="120" height="30" as="geometry" />
+          <mxGeometry x="40" y="2360" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9SRofgldqzQvd813DJrO-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=0;fillStyle=solid;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;labelBorderColor=none;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="60" y="2163.5" width="650" height="86.5" as="geometry" />
+          <mxGeometry x="60" y="2403.5" width="650" height="86.5" as="geometry" />
         </mxCell>
         <mxCell id="9SRofgldqzQvd813DJrO-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;rounded=0;fillStyle=solid;strokeWidth=1;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;labelBorderColor=none;" parent="9SRofgldqzQvd813DJrO-2" vertex="1">
           <mxGeometry width="650" height="29" as="geometry" />
@@ -956,12 +956,12 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-150" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
           <mxGeometry y="227" width="710" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-151" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-150">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-151" value="예외 처리" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-150">
           <mxGeometry width="110" height="26" as="geometry">
             <mxRectangle width="110" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-152" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-150">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-152" value="서버에서 수신된 데이터가 정해진 형식의 데이터가 아닐 경우 클라이언트 연결 종료" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-150">
           <mxGeometry x="110" width="430" height="26" as="geometry">
             <mxRectangle width="430" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -978,7 +978,7 @@
           <mxGeometry x="40" y="80" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-154" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1840" width="656" height="116" as="geometry" />
+          <mxGeometry x="80" y="1840" width="656" height="93" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-155" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-154">
           <mxGeometry width="656" height="23" as="geometry" />
@@ -1001,7 +1001,7 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-159" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-154">
           <mxGeometry y="23" width="656" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-160" value="message_text" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-159">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-160" value="user_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-159">
           <mxGeometry width="186" height="24" as="geometry">
             <mxRectangle width="186" height="24" as="alternateBounds" />
           </mxGeometry>
@@ -1011,7 +1011,7 @@
             <mxRectangle width="70" height="24" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-162" value="메시지 내용" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-159">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-162" value="사용자 아이디" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-159">
           <mxGeometry x="256" width="400" height="24" as="geometry">
             <mxRectangle width="400" height="24" as="alternateBounds" />
           </mxGeometry>
@@ -1019,7 +1019,7 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-163" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-154">
           <mxGeometry y="47" width="656" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-164" value="message_user_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-163">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-164" value="user_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-163">
           <mxGeometry width="186" height="23" as="geometry">
             <mxRectangle width="186" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -1029,7 +1029,7 @@
             <mxRectangle width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-166" value="사용자 아이디" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-163">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-166" value="사용자 이름" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-163">
           <mxGeometry x="256" width="400" height="23" as="geometry">
             <mxRectangle width="400" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -1037,7 +1037,7 @@
         <mxCell id="GL1bPDBsGA0zluXWCd74-167" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-154">
           <mxGeometry y="70" width="656" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-168" value="message_room_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-167">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-168" value="user_nick_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-167">
           <mxGeometry width="186" height="23" as="geometry">
             <mxRectangle width="186" height="23" as="alternateBounds" />
           </mxGeometry>
@@ -1047,28 +1047,19 @@
             <mxRectangle width="70" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-170" value="채팅방 아이디" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-167">
+        <mxCell id="GL1bPDBsGA0zluXWCd74-170" value="사용자 닉네임" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-167">
           <mxGeometry x="256" width="400" height="23" as="geometry">
             <mxRectangle width="400" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-171" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-154">
-          <mxGeometry y="93" width="656" height="23" as="geometry" />
+        <mxCell id="GL1bPDBsGA0zluXWCd74-175" value="3. 로그인시 전송하는 사용자 목록 JSON 정의" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="1810" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-172" value="message_timestamp" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;fontColor=default;labelBorderColor=none;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-171">
-          <mxGeometry width="186" height="23" as="geometry">
-            <mxRectangle width="186" height="23" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-176" value="4. 사용자 목록 전송 예시" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="1960" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-173" value="STR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-171">
-          <mxGeometry x="186" width="70" height="23" as="geometry">
-            <mxRectangle width="70" height="23" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GL1bPDBsGA0zluXWCd74-174" value="메시지 전송 날짜 및 시간" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-171">
-          <mxGeometry x="256" width="400" height="23" as="geometry">
-            <mxRectangle width="400" height="23" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-177" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;userList&quot;:[&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;user_id&quot;:&quot;재훈 -&amp;gt; 민수&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;jh051777&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-08 14:58:18.589&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:&quot;민수 -&amp;gt; 재훈&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;thsalstn&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-08 14:58:26.572&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_text&quot;:&quot;민수님 안녕하세요 반갑습니다&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_user_id&quot;:&quot;jh051777&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_room_id&quot;:&quot;56&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message_timestamp&quot;:&quot;2024-10-16 10:56:45.642&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;]&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2000" width="390" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

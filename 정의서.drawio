@@ -805,7 +805,7 @@
           <mxGeometry x="39" y="1370" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-113" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1640" width="750" height="194" as="geometry" />
+          <mxGeometry x="40" y="1640" width="750" height="204" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
           <mxGeometry width="750" height="27" as="geometry" />
@@ -880,25 +880,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-130" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
-          <mxGeometry y="107" width="750" height="33" as="geometry" />
+          <mxGeometry y="107" width="750" height="43" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-131" value="반복 메시지 횟수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-130">
-          <mxGeometry width="120" height="33" as="geometry">
-            <mxRectangle width="120" height="33" as="alternateBounds" />
+          <mxGeometry width="120" height="43" as="geometry">
+            <mxRectangle width="120" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-132" value="연속적으로 같은 메시지를 보내면 5회 까지는 전송 되지만 그 이후는 저장되거나 전송되지 않음&lt;div&gt;(10회를 초과할 경우 클라이언트의 연결을 종료시킴)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-130">
-          <mxGeometry x="120" width="450" height="33" as="geometry">
-            <mxRectangle width="450" height="33" as="alternateBounds" />
+          <mxGeometry x="120" width="450" height="43" as="geometry">
+            <mxRectangle width="450" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-133" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-130">
-          <mxGeometry x="570" width="180" height="33" as="geometry">
-            <mxRectangle width="180" height="33" as="alternateBounds" />
+          <mxGeometry x="570" width="180" height="43" as="geometry">
+            <mxRectangle width="180" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-134" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
-          <mxGeometry y="140" width="750" height="27" as="geometry" />
+          <mxGeometry y="150" width="750" height="27" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-135" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-134">
           <mxGeometry width="120" height="27" as="geometry">
@@ -916,7 +916,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-138" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-113">
-          <mxGeometry y="167" width="750" height="27" as="geometry" />
+          <mxGeometry y="177" width="750" height="27" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-139" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" vertex="1" parent="GL1bPDBsGA0zluXWCd74-138">
           <mxGeometry width="120" height="27" as="geometry">

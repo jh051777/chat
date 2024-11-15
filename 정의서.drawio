@@ -933,6 +933,9 @@
             <mxRectangle width="180" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GL1bPDBsGA0zluXWCd74-142" value="연결 소켓 번호와 로그인 한 아이디를 map을 사용하여 저장&lt;div&gt;(로그아웃 하면 삭제)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="80" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

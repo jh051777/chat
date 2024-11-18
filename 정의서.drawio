@@ -2712,7 +2712,7 @@
           <mxGeometry x="326.3856774193548" y="595.6284153005465" width="186.01212903225806" height="12.568306010928962" as="geometry" />
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-639" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;채팅방&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillStyle=solid;strokeColor=#82b366;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=1;labelBorderColor=none;fillColor=#d5e8d4;spacingRight=0;" vertex="1" parent="1">
-          <mxGeometry x="874.71" y="3194.21" width="784.29" height="546.72" as="geometry" />
+          <mxGeometry x="874.71" y="3198.21" width="784.29" height="546.72" as="geometry" />
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-640" value="" style="group;labelBorderColor=none;" vertex="1" connectable="0" parent="7KrvZ4khLXvGRrtLOvy1-639">
           <mxGeometry x="62.21351612903227" y="399.6721311475411" width="772.955806451613" height="111.22950819672134" as="geometry" />

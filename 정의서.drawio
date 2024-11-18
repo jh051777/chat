@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="페이지-1" id="O_5YI7VtIbmLpw0LFxMn">
-    <mxGraphModel dx="808" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="907" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2180,8 +2180,8 @@
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-547" value="사용자 목록 전송" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBorderColor=none;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-468">
           <mxGeometry x="715.9992741935483" y="982.9355191256831" width="69.12612903225806" height="18.852459016393446" as="geometry" />
         </mxCell>
-        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1068" value="전송 패킷 전체 사이즈: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1024 bytes&lt;div&gt;헤더 패킷 사이즈: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;12 bytes&lt;/div&gt;&lt;div&gt;바디 패킷 사이즈 : &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0~1012 bytes&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-468">
-          <mxGeometry x="20" y="14" width="520" height="66" as="geometry" />
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1068" value="전송 패킷 전체 사이즈: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1024 bytes&lt;div&gt;&lt;br&gt;&lt;div&gt;헤더 패킷 사이즈: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;12 bytes&lt;/div&gt;&lt;div&gt;바디 패킷 사이즈 : &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0~1012 bytes&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-468">
+          <mxGeometry x="20" y="14" width="290" height="66" as="geometry" />
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-515" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;로그인 &amp;amp; 로그아웃&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;fillStyle=solid;strokeColor=#b85450;strokeWidth=1;align=left;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=16;fontStyle=1;labelBorderColor=none;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="875.34" y="2420" width="783.66" height="741.53" as="geometry" />
@@ -3400,6 +3400,12 @@
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-799" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;labelBorderColor=none;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-733">
           <mxGeometry x="111.82" y="312.8499999999999" width="195" height="12.57" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1070" value="4. 대용량 데이터 처리" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="859" y="4280" width="181" height="25.14" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1071" value="- 전체 패킷 사이즈는 1024 bytes 이므로 그 이상의 데이터를 보낼 땐 데이터를 쪼개서 보내야함&lt;div&gt;&lt;br&gt;&lt;div&gt;- 서버는 클라이언트에게 전체 데이터 크기를 담은 헤더를 먼저 보낸 후 데이터를 보냄.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 데이터를 쪼갤 때 헤더크기는 포함하지 않아야 하므로 쪼갤 때 주의해야함&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;(ex. 채팅 내역 전송. 데이터 크기: 3420 bytes -&amp;gt;&amp;nbsp; 데이터 크기를 담은 헤더 12 bytes를 먼저 전송. -&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="4320" width="550" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

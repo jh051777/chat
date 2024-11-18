@@ -673,13 +673,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-116" value="상세 설명" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;fontStyle=1" parent="GL1bPDBsGA0zluXWCd74-114" vertex="1">
-          <mxGeometry x="110" width="430" height="27" as="geometry">
-            <mxRectangle width="430" height="27" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="27" as="geometry">
+            <mxRectangle width="460" height="27" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-117" value="비고" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;fontStyle=1" parent="GL1bPDBsGA0zluXWCd74-114" vertex="1">
-          <mxGeometry x="540" width="170" height="27" as="geometry">
-            <mxRectangle width="170" height="27" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="27" as="geometry">
+            <mxRectangle width="140" height="27" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-118" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -691,13 +691,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-120" value="최대 10개의 클라이언트를 리스닝함" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-118" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-121" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-118" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-122" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -709,13 +709,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-124" value="최대 10개의 클라이언트를 연결함(10개 초과 시 더 이상 연결을 받지 않음)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-122" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-125" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-122" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-126" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -727,13 +727,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-128" value="로그인을 실패하여 로그인 시도 횟수가 10회가 초과되면 클라이언트 연결을 종료시킴" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-126" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-129" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-126" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-130" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -745,13 +745,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-132" value="연속적으로 같은 메시지를 보내면 5회 까지는 전송 되지만 그 이후는 저장되거나 전송되지 않음&lt;div&gt;(10회를 초과할 경우 클라이언트의 연결을 종료시킴)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-130" vertex="1">
-          <mxGeometry x="110" width="430" height="43" as="geometry">
-            <mxRectangle width="430" height="43" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="43" as="geometry">
+            <mxRectangle width="460" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-133" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-130" vertex="1">
-          <mxGeometry x="540" width="170" height="43" as="geometry">
-            <mxRectangle width="170" height="43" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="43" as="geometry">
+            <mxRectangle width="140" height="43" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-134" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -763,13 +763,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-136" value="채팅을 시작할 때마다 DB에서 채팅 내역을 검색하여 사용자에게 전송시킴" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-134" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-137" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-134" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-138" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -781,13 +781,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-140" value="사용자 목록, 채팅 내역, 메시지 텍스트 등의 데이터를 보낼 때 json형식의 데이터로 변환하여 전송" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-138" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-141" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-138" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-146" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -799,13 +799,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-148" value="서버 콘솔창에서 명령어를 입력을 통해 연결된 사용자 조회 및 사용자 강제종료 기능" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-146" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-149" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-146" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-150" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
@@ -817,13 +817,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-152" value="서버에서 수신된 데이터가 정해진 형식의 데이터가 아닐 경우 클라이언트 연결 종료" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-150" vertex="1">
-          <mxGeometry x="110" width="430" height="26" as="geometry">
-            <mxRectangle width="430" height="26" as="alternateBounds" />
+          <mxGeometry x="110" width="460" height="26" as="geometry">
+            <mxRectangle width="460" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-153" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;" parent="GL1bPDBsGA0zluXWCd74-150" vertex="1">
-          <mxGeometry x="540" width="170" height="26" as="geometry">
-            <mxRectangle width="170" height="26" as="alternateBounds" />
+          <mxGeometry x="570" width="140" height="26" as="geometry">
+            <mxRectangle width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-145" value="채팅 프로그램 서버&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" parent="1" vertex="1">
@@ -1687,8 +1687,8 @@
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-2" value="c. 데이터베이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="760" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7KrvZ4khLXvGRrtLOvy1-16" value="- PostgreSQL / DBeaver 사용&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- libxx 라이브러리 설치 및 libpq-fe.h 사용&lt;/div&gt;&lt;div&gt;( PostgreSQL 사용 시 서버와 데이터베이스를 연결하기 위해 필요한 라이브러리)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="790" width="420" height="160" as="geometry" />
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-16" value="- PostgreSQL / DBeaver 사용&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- libxx 라이브러리 설치 및 libpq-fe.h 사용&lt;/div&gt;&lt;div&gt;( PostgreSQL 사용 시 서버와 데이터베이스를 연결하기 위해 필요한 라이브러리)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="790" width="420" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

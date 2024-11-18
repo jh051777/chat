@@ -346,17 +346,17 @@
         <mxCell id="9SRofgldqzQvd813DJrO-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9SRofgldqzQvd813DJrO-13" vertex="1">
           <mxGeometry y="189" width="470" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="9SRofgldqzQvd813DJrO-63" value="SUCCESS_SEND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#B8DBB0;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
+        <mxCell id="9SRofgldqzQvd813DJrO-63" value="SUCCESS_SEND" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#C1DBBF;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
           <mxGeometry width="158" height="18" as="geometry">
             <mxRectangle width="158" height="18" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9SRofgldqzQvd813DJrO-64" value="3010" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#B8DBB0;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
+        <mxCell id="9SRofgldqzQvd813DJrO-64" value="3010" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#C1DBBF;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
           <mxGeometry x="158" width="81" height="18" as="geometry">
             <mxRectangle width="81" height="18" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9SRofgldqzQvd813DJrO-65" value="메시지 전송 성공 응답 코드" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#B8DBB0;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
+        <mxCell id="9SRofgldqzQvd813DJrO-65" value="메시지 전송 성공 응답 코드" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#FAF6F4;overflow=hidden;fillColor=#C1DBBF;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;align=left;strokeWidth=11;" parent="9SRofgldqzQvd813DJrO-62" vertex="1">
           <mxGeometry x="239" width="231" height="18" as="geometry">
             <mxRectangle width="231" height="18" as="alternateBounds" />
           </mxGeometry>

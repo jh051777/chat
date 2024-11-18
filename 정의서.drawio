@@ -491,7 +491,7 @@
           <mxGeometry x="39" y="160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-113" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="60" y="466" width="710" height="252" as="geometry" />
+          <mxGeometry x="60" y="478" width="710" height="252" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="GL1bPDBsGA0zluXWCd74-113" vertex="1">
           <mxGeometry width="710" height="27" as="geometry" />
@@ -743,7 +743,7 @@
           <mxGeometry x="80" y="2331" width="390" height="370" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-179" value="b. 구성" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="40" y="446" width="60" height="20" as="geometry" />
+          <mxGeometry x="40" y="458" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GL1bPDBsGA0zluXWCd74-184" value="usertbl" style="shape=table;startSize=20;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fontSize=16;fillColor=#dae8fc;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="881" y="880" width="720" height="118" as="geometry" />
@@ -1513,8 +1513,8 @@
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-2" value="a. 서버 구성 / 데이터베이스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="210" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7KrvZ4khLXvGRrtLOvy1-17" value="&lt;b&gt;-&lt;/b&gt; C++ / WinSock 사용&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; 서버 IP(211.189.132.127)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; 포트번호 (49200)&lt;/div&gt;&lt;div&gt;(211.189.132.127:49200)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; PostgreSQL / DBeaver 사용&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; libxx 라이브러리 설치 및 libpq-fe.h 사용&lt;/div&gt;&lt;div&gt;( PostgreSQL 사용 시 서버와 데이터베이스를 연결하기 위해 필요한 라이브러리)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="230" width="551" height="180" as="geometry" />
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-17" value="&lt;b&gt;-&lt;/b&gt; C++ / WinSock 사용&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; 서버 IP(211.189.132.127)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; 포트번호 (49200)&lt;/div&gt;&lt;div&gt;(211.189.132.127:49200)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; PostgreSQL / DBeaver 사용&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-&lt;/b&gt; libxx 라이브러리 설치 및 libpq-fe.h 사용&lt;/div&gt;&lt;div&gt;( PostgreSQL 사용 시 서버와 데이터베이스를 연결하기 위해 필요한 라이브러리)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 식별 코드 정의 및 데이터베이스 정보 하드코딩 X / 헤더파일에 따로 정의&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="551" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-19" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="60" y="780" width="710" height="196" as="geometry" />

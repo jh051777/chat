@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="페이지-1" id="O_5YI7VtIbmLpw0LFxMn">
-    <mxGraphModel dx="1326" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4126,10 +4126,186 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-1342" value="5. 예외 처리" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="859" y="5254" width="181" height="25.14" as="geometry" />
+          <mxGeometry x="859" y="5266" width="181" height="25.14" as="geometry" />
         </mxCell>
-        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1343" value="&lt;div style=&quot;font-size: 14px; line-height: 130%;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;a. 클라이언트 최대 연결 초과 시 연결 시도&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 최대 연결 가능 클라이언트 수: &lt;u&gt;10&lt;/u&gt;.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;최대 연결 초과 시 연결 X&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;b. 정의된 식별 패킷(packet_id)에 해당하지 않는 데이터 수신&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 헤더 파일에 정의되어있는 패킷 식별 코드에 해당하지 않은 값이 수신 될 경우 데이터 처리 X&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;c. 정의된 패킷 사이즈보다 큰 데이터 수신&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 정의된 패킷 사이즈: 1024 bytes. 클라이언트 연결 종료.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;d. 도배성 메시지 처리&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 같은 메시지를 5번 이상 반복해서 보낼 경우, 그 이후의 반복 메시지는 처리하지않고 10회 이상 반복할 경우 클라이언트 연결을 강제 종료.&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;e. 형식에 맞지 않는 로그인 데이터 수신&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 로그인 데이터 수신 형식: {id,password}. 형식에 맞지 않은 로그인 데이터를 수신 할 경우 데이터 처리 X&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;f. 로그인 실패 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 아이디 또는 비밀번호가 등록된 계정과 일치하지 않아 로그인 실패 시 클라이언트에 실패 응답 전송.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 로그인 실패가 10회 초과되면 클라이언트의 연결 종료.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;g. 이미 로그인한 계정으로 로그인 시도 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 클라이언트에게 이미 로그인한 계정으로 로그인 시도 응답 전송.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;h. 새로운 채팅방 생성 오류 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;데이터베이스에 INSERT 시 쿼리 오류로 실패 여부 판단 후 채팅방 생성 실패 응답 전송.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;i. 기존 채팅 내역 검색 오류 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 데이터베이스에서 기존 채팅 내역 SELECT 시 쿼리 오류로 실패 여부 판단 후 채팅방 생성 실패 응답 전송.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;j. 채팅 메시지 데이터베이스 저장 오류 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&#x9;- 클라이언트가 전송하는 메시지를 데이터베이스에 INSERT 시 쿼리 오류로 실패 여부 판단 후 메시지 전송 실패 응답 전송.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;k. 상대방에게 메시지 전송 오류 처리&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 서버에서는 메시지를 수신 했지만 상대방에게 전송하지 못했을 경우 메시지 전송자에게 실패 응답 전송.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="880.05" y="5292" width="707.16" height="530" as="geometry" />
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1344" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;strokeWidth=3;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="871" y="5302" width="739" height="584" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1345" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1346" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;a. 클라이언트 최대 연결 초과 시 연결 시도&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1345">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1349" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="26" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1350" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 최대 연결 가능 클라이언트 수:&amp;nbsp;&lt;/span&gt;&lt;u style=&quot;font-size: 12px;&quot;&gt;10&lt;/u&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;최대 연결 초과 시 연결 X&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1349">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1353" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="52" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1354" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;b. 정의된 식별 패킷(packet_id)에 해당하지 않는 데이터 수신&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1353">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1357" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="78" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1358" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 헤더 파일에 정의되어있는 패킷 식별 코드에 해당하지 않은 값이 수신 될 경우 데이터 처리 X&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1357">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1359" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="104" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1360" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;c. 정의된 패킷 사이즈보다 큰 데이터 수신&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1359">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1361" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="130" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1362" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 정의된 패킷 사이즈: 1024 bytes. 클라이언트 연결 종료.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1361">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1363" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="156" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1364" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;d. 도배성 메시지 처리&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1363">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1365" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="182" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1366" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 같은 메시지를 5번 이상 반복해서 보낼 경우, 그 이후의 반복 메시지는 처리하지않고 10회 이상 반복할 경우 클라이언트 연결을 강제 종료.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1365">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1367" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="208" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1368" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;e. 형식에 맞지 않는 로그인 데이터 수신&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1367">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1369" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="234" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1370" value="&lt;span style=&quot;font-size: 12px; font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 로그인 데이터 수신 형식: {id,password}. 형식에 맞지 않은 로그인 데이터를 수신 할 경우 데이터 처리 X&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1369">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1371" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="260" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1372" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;f. 로그인 실패 처리&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1371">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1373" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="286" width="739" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1374" value="&lt;div style=&quot;font-size: 12px; line-height: 15.6px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 아이디 또는 비밀번호가 등록된 계정과 일치하지 않아 로그인 실패 시 클라이언트에 실패 응답 전송.&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 15.6px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 로그인 실패가 10회 초과되면 클라이언트의 연결 종료.&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1373">
+          <mxGeometry width="739" height="38" as="geometry">
+            <mxRectangle width="739" height="38" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1375" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="324" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1376" value="&lt;div style=&quot;font-size: 12px; line-height: 15.6px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;g. 이미 로그인한 계정으로 로그인 시도 처리&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1375">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1377" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="350" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1378" value="&lt;span style=&quot;font-size: 12px; font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 클라이언트에게 이미 로그인한 계정으로 로그인 시도 응답 전송.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1377">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1379" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="376" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1380" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;h. 새로운 채팅방 생성 오류 처리&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1379">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1381" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="402" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1382" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;데이터베이스에 INSERT 시 쿼리 오류로 실패 여부 판단 후 채팅방 생성 실패 응답 전송.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1381">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1383" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="428" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1384" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;i. 기존 채팅 내역 검색 오류 처리&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1383">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1385" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="454" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1386" value="&lt;span style=&quot;font-size: 12px; font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;- 데이터베이스에서 기존 채팅 내역 SELECT 시 쿼리 오류로 실패 여부 판단 후 채팅방 생성 실패 응답 전송.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1385">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1387" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="480" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1388" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;j. 채팅 메시지 데이터베이스 저장 오류 처리&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1387">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1389" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="506" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1390" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;- 클라이언트가 전송하는 메시지를 데이터베이스에 INSERT 시 쿼리 오류로 실패 여부 판단 후 메시지 전송 실패 응답 전송.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1389">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1391" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="532" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1392" value="&lt;b style=&quot;font-size: 14px; white-space: pre;&quot;&gt;k. 상대방에게 메시지 전송 오류 처리&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1391">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1393" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1344">
+          <mxGeometry y="558" width="739" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1394" value="&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; white-space: pre;&quot;&gt;- 서버에서는 메시지를 수신 했지만 상대방에게 전송하지 못했을 경우 메시지 전송자에게 실패 응답 전송.&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#F2F5FC;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="7KrvZ4khLXvGRrtLOvy1-1393">
+          <mxGeometry width="739" height="26" as="geometry">
+            <mxRectangle width="739" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

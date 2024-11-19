@@ -4128,7 +4128,7 @@
         <mxCell id="7KrvZ4khLXvGRrtLOvy1-1342" value="5. 예외 처리" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="859" y="5280" width="181" height="25.14" as="geometry" />
         </mxCell>
-        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1343" value="&lt;div&gt;클라이언트 최대 연결 초과 시 연결 시도&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;정의된 식별 패킷에 해당하지 않는 데이터 수신&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;정의된 패킷 사이즈보다 큰 데이터 수신&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;형식에 맞지 않는 로그인 데이터 수신&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7KrvZ4khLXvGRrtLOvy1-1343" value="&lt;div&gt;클라이언트 최대 연결 초과 시 연결 시도&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;정의된 식별 패킷(packet_id)에 해당하지 않는 데이터 수신&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;정의된 패킷 사이즈보다 큰 데이터 수신&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;형식에 맞지 않는 로그인 데이터 수신&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;로그인 실패 처리&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;이미 로그인한 계정으로 로그인 시도 처리&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;데이터베이스에 존재 하지 않는 아이디를 대상으로 채팅방 생성&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;새로운 채팅방 생성 오류 처리&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;기존 채팅 내역 검색 오류 처리&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="882.84" y="5330" width="707.16" height="360" as="geometry" />
         </mxCell>
       </root>

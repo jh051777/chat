@@ -4475,7 +4475,7 @@
             <mxRectangle width="218" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iy6ksAdD993EqNYlN-it-53" value="전송 데이터가 1012 bytes 를 초과 할 때" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="Iy6ksAdD993EqNYlN-it-31">
+        <mxCell id="Iy6ksAdD993EqNYlN-it-53" value="전송 데이터가 1012 bytes 를 초과할 경우 대용량 데이터 처리 알고리즘 실행" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="Iy6ksAdD993EqNYlN-it-31">
           <mxGeometry x="853" width="277" height="36" as="geometry">
             <mxRectangle width="277" height="36" as="alternateBounds" />
           </mxGeometry>

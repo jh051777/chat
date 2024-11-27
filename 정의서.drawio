@@ -4510,168 +4510,222 @@
           <mxGeometry x="1680" y="1240" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-3" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1681" y="1280" width="750" height="270" as="geometry" />
+          <mxGeometry x="1681" y="1280" width="750" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
+          <mxGeometry width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-49" value="함수 내용" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;fontStyle=1" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-48">
+          <mxGeometry width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-50" value="함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=center;fontStyle=1" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-48">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-51" value="비고" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;fontStyle=1" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-48">
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry width="750" height="30" as="geometry" />
+          <mxGeometry y="30" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-5" value="패킷 수신 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-4">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-6" value="void handle_packet(int client_socket, int login_failed_count)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-4">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-6" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; handle_packet( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket, &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; login_failed_count )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-4">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-7" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-4">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-36" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="30" width="750" height="30" as="geometry" />
+          <mxGeometry y="60" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-37" value="클라이언트 로그인 처리 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-36">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-38" value="void handle_clientLogin(int client_socket, std::string data)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-36">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-38" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; handle_clientLogin( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; data )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-36">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-39" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-36">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-32" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="60" width="750" height="30" as="geometry" />
+          <mxGeometry y="90" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-33" value="클라이언트 로그아웃 처리 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-32">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-34" value="void handle_clientLogout(int client socket, std::string id)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-32">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-34" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; handle_clientLogout( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client socket, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; id )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-32">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-35" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-32">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-28" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="90" width="750" height="30" as="geometry" />
+          <mxGeometry y="120" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-29" value="채팅방 생성 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-28">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-30" value="void handle_clientRoom(int client_socket, std::string inviter_id)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-28">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-30" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; handle_clientRoom( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; inviter_id )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-28">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-28">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="120" width="750" height="30" as="geometry" />
+          <mxGeometry y="150" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-25" value="채팅 메시지 처리 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-24">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-26" value="void handle_clientMessage(int client_socket, std::string msg_data, int room_id)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-24">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-26" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; handle_clientMessage( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; msg_data, &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; room_id )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-24">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-27" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-24">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-20" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="150" width="750" height="30" as="geometry" />
+          <mxGeometry y="180" width="750" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-21" value="계정 확인 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-20">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-22" value="bool check_login(const std::string&amp;amp; user_id, const std::string&amp;amp; user_password)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-20">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-22" value="&lt;font color=&quot;#3399ff&quot;&gt;bool&lt;/font&gt; check_login( &lt;font color=&quot;#3399ff&quot;&gt;const&lt;/font&gt; std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt;&amp;amp; user_id, &lt;font color=&quot;#3399ff&quot;&gt;const&lt;/font&gt; std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt;&amp;amp; user_password )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-20">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-20">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-16" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="180" width="750" height="30" as="geometry" />
+          <mxGeometry y="210" width="750" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-16">
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-17" value="채팅방 존재 여부 확인 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-16">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-16">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-18" value="&lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; room_exists( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; creator_id, std::&lt;font color=&quot;#009999&quot;&gt;string&lt;/font&gt; inviter_id )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-16">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-19" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-16">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="210" width="750" height="30" as="geometry" />
+          <mxGeometry y="240" width="750" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-9" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-8">
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-9" value="클라이언트 연결 해제 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-8">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-10" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-8">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-10" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; close_client_socket( &lt;font color=&quot;#3399ff&quot;&gt;int&lt;/font&gt; client_socket )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-8">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-8">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
-          <mxGeometry y="240" width="750" height="30" as="geometry" />
+          <mxGeometry y="270" width="750" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-12">
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-13" value="메모리 복사 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-12">
           <mxGeometry width="180" height="30" as="geometry">
             <mxRectangle width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFyGwSJdyLq5WF25NKXT-14" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-12">
-          <mxGeometry x="180" width="470" height="30" as="geometry">
-            <mxRectangle width="470" height="30" as="alternateBounds" />
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-14" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; memcpy_pkt( &lt;font color=&quot;#3399ff&quot;&gt;char&lt;/font&gt;* buffer, &lt;font color=&quot;#009999&quot;&gt;packet&lt;/font&gt; packet )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-12">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFyGwSJdyLq5WF25NKXT-15" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-12">
-          <mxGeometry x="650" width="100" height="30" as="geometry">
-            <mxRectangle width="100" height="30" as="alternateBounds" />
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-40" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
+          <mxGeometry y="300" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-41" value="멀티바이트 판별 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-40">
+          <mxGeometry width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-42" value="&lt;font color=&quot;#3399ff&quot;&gt;bool&lt;/font&gt; is_utf8_lead_byte( &lt;font color=&quot;#3399ff&quot;&gt;unsigned&lt;/font&gt; &lt;font color=&quot;#3399ff&quot;&gt;char&lt;/font&gt; byte )" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-40">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-40">
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-44" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-3">
+          <mxGeometry y="330" width="750" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-45" value="서버 명령어 함수" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-44">
+          <mxGeometry width="180" height="30" as="geometry">
+            <mxRectangle width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-46" value="&lt;font color=&quot;#3399ff&quot;&gt;void&lt;/font&gt; server_command()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-44">
+          <mxGeometry x="180" width="479" height="30" as="geometry">
+            <mxRectangle width="479" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFyGwSJdyLq5WF25NKXT-47" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="TFyGwSJdyLq5WF25NKXT-44">
+          <mxGeometry x="659" width="91" height="30" as="geometry">
+            <mxRectangle width="91" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
